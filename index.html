@@ -102,9 +102,11 @@
                 }
 
                 if (!apiKey) {
-                    setShowApiKeyInput(true);
-                    return;
-                }
+    throw new Error('Service temporarily unavailable');
+}
+                   
+                   
+                
 
                 setIsGenerating(true);
                 
